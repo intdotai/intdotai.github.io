@@ -13,7 +13,7 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="assets/css/agency.css" rel="stylesheet">
+    <link href="assets/css/agency.css?v2" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -50,8 +50,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="#how_it_works">How it Works</a></li>
                     <li><a class="page-scroll" href="#features">Features</a></li>
-                    <li><a class="page-scroll" href="#team">Team</a></li>
+                    <li><a class="page-scroll" href="#our_story">Our Story</a></li>
                     <li><a class="page-scroll" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -64,113 +65,132 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">Be Data Conscious</div>
-                <div class="intro-lead-in">Interact with your data in simple english to understand metrics and derive meaningful insights. Identify patterns easily and start making better decisions backed by data.</div>
-                <a href="#features" class="page-scroll btn btn-xl">Know More</a>
+                <div class="intro-heading">Meet Gin...</div>
+                <div class="intro-lead-in">
+                    ...an AI powered virtual analyst who translates your data into relevant insights.
+                <br><br><br><br><a href="#how_it_works" class="page-scroll"><i id="know_more" class="fa fa-chevron-circle-down fa-stack-2x fa-inverse"></i></a></div>
             </div>
-        </div>`
+        </div>
     </header>
 
-    <!-- features Section -->
-    <section id="features">
+    <!-- how_it_works Section -->
+    <section id="how_it_works">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">features</h2>
-                    <h3 class="section-subheading text-muted">It's like having your very own personal analyst<!--&trade;--></h3>
+                    <h2 class="section-heading">How It Works</h2>
+                    <h3 class="section-subheading text-muted">Your very own personal analyst<!--&trade;--></h3>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <img id="timeline_img" src="assets/img/how_it_works/step_1.jpg" align="left">
+                <h4 class="service-heading">Gin will send you insights about your business</h4>
+                <p class="text-muted">You will receive summary insights and periodic notifications about how your metrics are behaving via email/slack/other platforms.</p>
+            </div>
+            <div class="col-lg-12">
+                <img id="timeline_img" src="assets/img/how_it_works/step_2.jpg" align="right">
+                <h4 class="service-heading" align="right">You can order Gin to probe a metric further</h4>
+                <p class="text-muted" align="right">Gin will dig deep into the reasons for the behavior of the metric by extensively analyzing it over all the possible dimensions.</p>
+            </div>
+            <div class="col-lg-12">
+                <img id="timeline_img" src="assets/img/how_it_works/step_3.jpg" align="left">
+                <h4 class="service-heading">Gin will send you the investigation findings</h4>
+                <p class="text-muted">You will receive the findings of this investigation with relevat supporting information. Gin will also file an incident and record all happenings for human review at a later point in time.</p>
+            </div>
+            <div class="col-lg-12">
+                <img id="timeline_img" src="assets/img/how_it_works/step_4.jpg" align="right">
+                <h4 class="service-heading" align="right">You can escalate the issue for human intervention</h4>
+                <p class="text-muted" align="right">Gin will alert the human analyst and send the findings unearthed so far for further probe and conclusion.</p>
+            </div>
+            <div class="col-lg-12">
+                <img id="timeline_img" src="assets/img/how_it_works/step_5.jpg" align="left">
+                <h4 class="service-heading">You can continute the conversation and conclude</h4>
+                <p class="text-muted">Gin will record the conversation history, learn from this conclusion for limited future usage and close this incident.</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <br>
+                <h4 class="service-heading">You can also order Gin to serve your ad-hoc data requirements</h4>
+                <img id="timeline_img" src="assets/img/how_it_works/step_6.jpg" align="center">
+            </div>
+        </div>
+    </section>
+
+    <!-- features Section -->
+    <section id="features" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Feature Highlight</h2>
+                    <h3 class="section-subheading text-muted">A powerful analytical platform at heart</h3>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-5x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Pre Profiled Metrics</h4>
-                    <p class="text-muted">Standard industry metrics and definitions are available to you out of the box. Not enough? You can add your own metrics and definitions too.</p>
-                </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-5x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-search fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Search Data</h4>
-                    <p class="text-muted">You can now interact with your business data by writing queries in simple english. You don't have to be a SQL wizard or depend on technical users.</p>
+                    <h4 class="service-heading">Simplified Interactions</h4>
+                    <p class="text-muted">State what you want in simple english and interact with your virtual analyst just like how you would interact with a human.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-5x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-slack fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Forecast Models</h4>
-                    <p class="text-muted">Use your data to look beyond today. Our AI based in built machine learning models will learn from your data to give you projections for the future.</p>
+                    <h4 class="service-heading">Hassle Free Interfaces</h4>
+                    <p class="text-muted">Don't want to login or download an app? We've got you covered, you can interact with the platform via email, slack and many more interfaces.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Data Enrichment Support</h4>
+                    <p class="text-muted">Use our robust rule engines and machine learning algorithms to clean and enrich your data coming from several disparate sources.</p>
                 </div>
             </div>
+            <br><br>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-3x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-slack fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-line-chart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p class="text-muted">Interface-less consumption via slack and email</p>
+                    <p class="text-muted">Standard metrics out of the box</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-3x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cubes fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-cogs fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p class="text-muted">Data enrichment to support multi dimensional analyses</p>
+                    <p class="text-muted">In built forecast models</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-3x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-file-text fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p class="text-muted">Ready availability of public data sets in consumable formats</p>
+                    <p class="text-muted">Readily usable public data sets</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+    <!-- our_story Section -->
+    <section id="our_story">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Team</h2>
-                    <h3 class="section-subheading text-muted">We are hiring across functions. Please drop us a line at <a href="mailto:hello@int.ai">hello@int.ai</a></h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="assets/img/team/11.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Vinay Kumar NP</h4>
-                        <p class="text-muted">Co-Founder / Tech</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://in.linkedin.com/in/vinay20045" target="_BLANK"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/vinay20045/" target="_BLANK"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="http://askvinay.com/" target="_BLANK"><i class="fa fa-rss"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="assets/img/team/22.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Praneeth Babu Doguparthy</h4>
-                        <p class="text-muted">Co-Founder / Data Science</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="https://www.linkedin.com/in/praneethdoguparthy" target="_BLANK"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/p12dpraneeth" target="_BLANK"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="https://twitter.com/p12dpraneeth" target="_BLANK"><i class="fa fa-twitter"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+                    <h2 class="section-heading">Our Story</h2>
+                    <h3 class="section-subheading text-muted">We love what we do. We hope you do too!!</h3>
+                    <h3 id="our_story_section" class="section-subheading text-muted">
+                        Having built reporting systems and analysis frameworks for various use cases across companies, we realised that most times the pains we faced were similar. You start out by understanding the borderline ridiculous table names and relationships, spend multiple days weeding out the junk from the data, generate same reports differently again and again then rinse and repeat. At the end of all this there's no time or energy left for using data to do things that will save money for the business, to generate useful insights for business folks, and most importantly for doing what we love; Analyse and understand all that the data can reveal.
+                        <br><br>
+                        Most times having enough data is seledom the problem but knowing what that data can do for the business is. Plenty of existing tools and solutions solve some of these problems either in disjoint pockets or in a manner that ends up being more complex for the users. Therefore, we stopped and wondered if this could be done differently. We looked into the future and solved it <i>our</i> way. After understanding who our users were, we simply focused on removing all the clutter and complexity and give them what they want, when they want it and in the most easily understandable way. We are helping businesses make data conscious decisions everyday!!
+                        <br><br>
+                        We are on a mission to build a global analytics product from India to the world. We believe in the power of shared ideas and royalty free knowledge. Every day we struggle to show the world that a small group of dedicated people can do amazing things!! If you share our beliefs and love working with data or enjoy building large scale analytical systems, we want to work with you. Please drop us a line at <a href="mailt:hello@int.ai">hello@int.ai</a>.
+                    </h3>
                 </div>
             </div>
         </div>
@@ -259,13 +279,13 @@
     <script src="assets/js/agency.js"></script>
 
     <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-74681041-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-74681041-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </body>
 
